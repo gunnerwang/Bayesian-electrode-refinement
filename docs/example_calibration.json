@@ -1,0 +1,83 @@
+{
+  "tuning_images": [
+    "tune_01",
+    "tune_02",
+    "tune_03",
+    "tune_04",
+    "tune_05",
+    "tune_06",
+    "tune_07",
+    "tune_08",
+    "tune_09",
+    "tune_10"
+  ],
+  "input_vs_gt": {
+    "n_instances": 1003,
+    "iou_mean": 0.7881,
+    "precision_mean": 0.9314,
+    "recall_mean": 0.8331,
+    "gt_over_input_width_ratio": 1.148
+  },
+  "probes": [
+    {
+      "params": {
+        "thickness_factor": 0.5,
+        "transform_ratio": 0.8,
+        "transform_intensity": 1.0,
+        "min_separation": 5
+      },
+      "n_instances": 1003,
+      "refined_iou_mean": 0.6477,
+      "refined_precision_mean": 0.9663,
+      "refined_recall_mean": 0.6655
+    },
+    {
+      "params": {
+        "thickness_factor": 1.3,
+        "transform_ratio": 0.3,
+        "transform_intensity": 0.4,
+        "min_separation": 8
+      },
+      "n_instances": 1003,
+      "refined_iou_mean": 0.8475,
+      "refined_precision_mean": 0.8634,
+      "refined_recall_mean": 0.9785
+    },
+    {
+      "params": {
+        "thickness_factor": 1.8,
+        "transform_ratio": 0.1,
+        "transform_intensity": 0.2,
+        "min_separation": 10
+      },
+      "n_instances": 1003,
+      "refined_iou_mean": 0.8371,
+      "refined_precision_mean": 0.8689,
+      "refined_recall_mean": 0.9602
+    },
+    {
+      "params": {
+        "thickness_factor": 1.0,
+        "transform_ratio": 0.5,
+        "transform_intensity": 0.7,
+        "min_separation": 5
+      },
+      "n_instances": 1003,
+      "refined_iou_mean": 0.8408,
+      "refined_precision_mean": 0.8437,
+      "refined_recall_mean": 0.9949
+    },
+    {
+      "params": {
+        "thickness_factor": 0.3,
+        "transform_ratio": 0.9,
+        "transform_intensity": 1.0,
+        "min_separation": 3
+      },
+      "n_instances": 1003,
+      "refined_iou_mean": 0.4362,
+      "refined_precision_mean": 0.9805,
+      "refined_recall_mean": 0.4414
+    }
+  ]
+}

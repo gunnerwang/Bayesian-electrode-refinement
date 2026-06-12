@@ -1,0 +1,10 @@
+numpy
+opencv-python
+scipy
+scikit-image
+scikit-learn
+tqdm
+python-dotenv
+openai>=1.0
+matplotlib
+pandas
