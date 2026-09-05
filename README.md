@@ -1,7 +1,11 @@
 # LLM-Guided Bayesian Refinement of Electrode Segmentation Masks
 
 Code release for the paper *"A Bayesian Refinement Method Incorporating Geometric Prior and LLM-Guided Hyperprior for Measurement-Grade Overhang Analysis in X-ray Electrode Inspection"*
-by Tianyu Wang et al.
+by Tianyu Wang, Shiyu Lu, Tianzhi Li, Chun Cao, Mian Li, Yunlong Huang, Xi Vincent Wang, and Lihui Wang,
+published in *Advanced Engineering Informatics* (Elsevier, open access).
+
+- Paper: https://www.sciencedirect.com/science/article/pii/S1474034626008773
+- DOI: https://doi.org/10.1016/j.aei.2026.105185
 
 The framework refines coarse electrode instance masks (e.g., from battery
 X-ray/CT inspection) with a Bayesian multi-electrode model, optionally guided
@@ -151,9 +155,13 @@ Research use only — see [LICENSE](LICENSE).
 
 ```bibtex
 @article{wang2026bayesian,
-  title  = {A Bayesian Refinement Method Incorporating Geometric Prior and LLM-Guided Hyperprior for Measurement-Grade Overhang Analysis in X-ray Electrode Inspection},
-  author = {Wang, Tianyu and others},
-  year   = {2026},
-  note   = {to appear; update upon publication}
+  title   = {A Bayesian refinement method incorporating geometric prior and {LLM}-guided hyperprior for measurement-grade overhang analysis in {X}-ray electrode inspection},
+  author  = {Wang, Tianyu and Lu, Shiyu and Li, Tianzhi and Cao, Chun and Li, Mian and Huang, Yunlong and Wang, Xi Vincent and Wang, Lihui},
+  journal = {Advanced Engineering Informatics},
+  volume  = {77},
+  pages   = {105185},
+  year    = {2027},
+  doi     = {10.1016/j.aei.2026.105185},
+  url     = {https://www.sciencedirect.com/science/article/pii/S1474034626008773}
 }
 ```
