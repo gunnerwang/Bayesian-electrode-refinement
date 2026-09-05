@@ -1,5 +1,7 @@
 # LLM-Guided Bayesian Refinement of Electrode Segmentation Masks
 
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.aei.2026.105185-blue)](https://doi.org/10.1016/j.aei.2026.105185)
+
 Code release for the paper *"A Bayesian Refinement Method Incorporating Geometric Prior and LLM-Guided Hyperprior for Measurement-Grade Overhang Analysis in X-ray Electrode Inspection"*
 by Tianyu Wang, Shiyu Lu, Tianzhi Li, Chun Cao, Mian Li, Yunlong Huang, Xi Vincent Wang, and Lihui Wang,
 published in *Advanced Engineering Informatics* (Elsevier, open access).

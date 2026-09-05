@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "LLM-Guided Bayesian Refinement of Electrode Segmentation Masks"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Tianyu
+repository-code: "https://github.com/gunnerwang/Bayesian-electrode-refinement"
+license-url: "https://github.com/gunnerwang/Bayesian-electrode-refinement/blob/main/LICENSE"
+preferred-citation:
+  type: article
+  title: "A Bayesian refinement method incorporating geometric prior and LLM-guided hyperprior for measurement-grade overhang analysis in X-ray electrode inspection"
+  authors:
+    - family-names: Wang
+      given-names: Tianyu
+    - family-names: Lu
+      given-names: Shiyu
+    - family-names: Li
+      given-names: Tianzhi
+    - family-names: Cao
+      given-names: Chun
+    - family-names: Li
+      given-names: Mian
+    - family-names: Huang
+      given-names: Yunlong
+    - family-names: Wang
+      given-names: Xi Vincent
+    - family-names: Wang
+      given-names: Lihui
+  journal: "Advanced Engineering Informatics"
+  volume: 77
+  start: 105185
+  year: 2027
+  doi: "10.1016/j.aei.2026.105185"
+  url: "https://www.sciencedirect.com/science/article/pii/S1474034626008773"
